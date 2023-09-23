@@ -13,9 +13,9 @@
 2. Change or move into the working directory using `cd Sample`
 3. Inside the folder, run `git init` to initialize the local repo.
 
-![Alt text](<1st image of Git.png>)
+![Alt text](<Image/image1.png>)
 
-![Alt text](<Image/git init.png>)
+![Alt text](<Image/image2.png>)
 
 ---
 
@@ -49,10 +49,77 @@ To commit ,use the command `git commit -m "here is my new file"`
 
 To change from an old branch into a new branch using `git checkout akin`
 
+### ***Merging a branch into another***
 
+To achieve this, lets run a command `git merge Zyzou`' my newbranch name is **Zyzou**
 
+![Alt text](<Image/Screenshot 2023-09-22 at 6.23.58 AM.png>)
 
+### ***Deleting a branch in git***
 
+To delete a branch in git, simply run command `git branch -d Chenko`, the branch I am deleting is `Chenko`
 
+![Alt text](<Image/Screenshot 2023-09-22 at 7.06.03 AM.png>)
 
+## Collaboration and Remote Repositories 
 
+### ***Pushing of local Git repository to the remote Github repository***
+
+Having created a github account and a github repository, let's send a copy of our story to our repository in github
+
+simply run `git add .` 
+
+![Alt text](<Image/Screenshot 2023-09-22 at 12.34.51 PM.png>)
+
+To push the added content to the remote repository
+
+The command to run is `git push origin main`
+
+![Alt text](<Image/Screenshot 2023-09-22 at 12.42.00 PM.png>)
+
+## **Cloning remote git repository**
+
+To achieve this, simply run `git clone https://github.com/Fredricksecures/nodeApp.git`
+
+![Alt text](<Image/Screenshot 2023-09-22 at 12.54.34 PM.png>)
+
+## Introduction to MarkDown Syntax
+
+### Let's take a look at some of the most commonly used mardown syntax:
+
+1. **Heading**
+
+   `# Heading 1`
+   `## Heading 2`
+   `### Heading 3`
+
+2. **Emphasis**
+
+    `*italic* or _italic_`
+    `**bold** or _bold_`
+    
+3. **List**   
+
+### Let us take some look at unordered list syntax examples
+
+`- Item 1`
+`- Item 2`
+`- Item 3`
+
+### Ordered list examples come next in the below:
+
+`1. First item`
+`2. Second item`
+`3. Third item`
+
+4. **Links**
+
+`[visit darey.io] (https://darey.io)`
+
+5. **Images**
+
+`! [Alt text](https://google.com/image.png)`
+
+6. **To display a code**
+
+`console.log('This is Tinubu's Nigeria')`
